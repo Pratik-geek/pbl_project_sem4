@@ -1,0 +1,284 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+body{
+    background-color:rgb(150, 153, 150);
+}
+.login{
+    background-color: #888;
+    color: #ffffff;
+    height: 30px ;
+    display: flex;
+    justify-content: right;
+}
+
+.login button{
+    background-color: #888;
+    color: white;
+    padding: 2px 7px;
+    margin: 2px 40px;
+    cursor: pointer;
+}
+ nav{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.nav{
+    background-color: white;
+    display: flex;
+    height: 90px;
+    
+}
+
+.navcontent{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    
+}
+
+.logo{
+    display: flex;
+}
+.logo a{
+    padding: 5px 0 0 0;
+}
+
+.logo img{
+    max-width: 100%;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.menu ul li{
+    color: #888;
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.menu ul li a:hover{
+    border-bottom: 2px solid #888;
+}
+
+.menu ul li a{
+    color: #888;
+    text-decoration: none;
+    padding: 22px 15px 12px 15px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.container{
+    
+    background-color: #e4e6e9;
+    height: 80vh;
+}
+.innercontainer{
+    width: 100vw;
+    display: inline-flex;
+}
+.allinone{
+    width: 30%;
+    height: 80vh;
+    margin: 0 0 0 5%;
+    /* padding: 0 0 0 30px; */
+}
+
+.allinone h2{
+    margin: 80px 0 0 0;
+    font-size: 30px;
+}
+.allinone p{
+    margin: 40px 0 0 0;
+    font-size: 15px;
+}
+.allinone button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 4px solid black;
+    margin: 40px 0 0 0;
+    padding: 5px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.allinone button a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 4px solid black;
+    margin: 40px 0 0 0;
+    padding: 5px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.equip {
+    width: 50%;
+    height: 80vh;
+    display: inline-flex;
+}
+.forimg1 img{
+   /* margin: 150px 200px; */
+   width: 150px;
+   border: 2px solid black;
+   border-radius: 80px;
+   position: absolute;
+   top: 170px;
+   left: 600px;
+}
+.forimg2 img{
+   /* margin: 150px 200px; */
+   width: 150px;
+   border: 2px solid black;
+   border-radius: 80px;
+    position: absolute;
+   top: 170px;
+   left: 800px;
+}
+.forimg3 img{
+   /* margin: 150px 200px; */
+   width: 150px;
+   border: 2px solid black;
+   border-radius: 80px;
+    position: absolute;
+   top: 170px;
+   left: 1000px;
+}
+.forimg4 img{
+   /* margin: 150px 200px; */
+   width: 150px;
+   border: 2px solid black;
+   border-radius: 80px;
+    position: absolute;
+   top: 370px;
+   left: 600px;
+}
+.forimg5 img{
+   /* margin: 150px 200px; */
+   width: 150px;
+   border: 2px solid black;
+   border-radius: 80px;
+    position: absolute;
+   top: 370px;
+   left: 800px;
+}
+.forimg6 img{
+   /* margin: 150px 200px; */
+   width: 150px;
+   border: 2px solid black;
+   border-radius: 80px;
+    position: absolute;
+   top: 370px;
+   left: 1000px;
+}
+
+.about{
+    height: 80vh;
+    width: 100%;
+    background-color: #e4e6e9;
+}
+.aboutmain{
+    display: flex;
+}
+.welcome{
+    width: 35%;
+    height: 80vh;
+    padding: 100px 80px 0 60px;
+}
+
+.welcome h1{
+    font-size: 40px;
+}
+.weltext{
+    padding: 60px 80px 0 30px;
+    width: 60%;
+    height: 80vh;
+    font-size: 18px;
+}
+
+.content{
+    /* background-color: black; */
+    display: flex;
+}
+.unique{
+    width: 30%;
+    height: auto;
+    background-color: cadetblue;
+}
+.list{
+    /* background-color: yellow; */
+    width: 70%;
+    /* display: flex; */
+}
+
+.item{
+    margin: 5px auto 0 auto;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+.itemimg{
+    width: 250px;
+    background-color: #d5c7c78c;
+    border-radius: 15px;
+}
+.itemimg img{
+    width: 200px;
+    display: inline-flex;
+    margin: 0 25px;
+}
+
+.itemdis{
+    width: 100%;
+    padding: 1px;
+}
+.itemcontent{
+    margin: 10px 30px;
+    height: 130px;
+}
+
+.itemcontent h3{
+    font-style: normal;
+    font-weight: bold;
+}
+
+.itemcontent p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.itemcontent h6{
+    font-size: 15px;
+}
+.callnow{
+    height: 29px;
+    display: flex;
+}
+
+.contct{
+    background-color: green;
+    color: #ffffff;
+    border: 2px solid green;
+    border-radius: 15px;
+    width: 200px;
+    margin: 0 0 0 200px;
+    cursor: pointer;
+}
