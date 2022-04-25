@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color:rgb(150, 153, 150);
+    background-color:rgb(246, 241, 241);
 }
 .login{
     background-color: #888;
@@ -212,12 +212,21 @@ body{
 .content{
     /* background-color: black; */
     display: flex;
+    height: 625px;
 }
 .unique{
     width: 30%;
     height: auto;
-    background-color: cadetblue;
+    background-color: rgb(225, 245, 246);
+    position: sticky;
+    top: 90px;
 }
+
+.allitem{
+    overflow-y: scroll;
+    height: 620px;
+}
+
 .list{
     /* background-color: yellow; */
     width: 70%;
@@ -281,4 +290,19 @@ body{
     width: 200px;
     margin: 0 0 0 200px;
     cursor: pointer;
+}
+
+.footer{
+    background-color: rgb(114, 110, 110);
+    height: 500px;
+}
+
+.footer h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
 }
